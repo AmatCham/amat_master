@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lora', serif;
+}
+body{
+	font-family: 'Oxygen', sans-serif;
+	border-radius: 0;
+	border: 0;
+	background-color: #ffffff;
+}
+
+.navbar-inverse {
+  background-color: red;
+  border-color: #808080;
+}
+.navbar-inverse .navbar-brand {
+  color: #9d9d9d;
+}
+.navbar-header h1{
+	font-size:2em;
+	color: #000000;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 0;
+	line-height: .75
+}
+.navbar-header a:hover,a:focus{
+	text-decoration: none;
+
+}
+#header-text > h2{
+	text-align: center;
+	color: #800000;
+	font-size: 2.5em;
+}
+
+.container > h3{
+	text-align: center;
+	color: #000000;
+	font-size: 2.5em;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+@media only screen and (max-width: 768px){
+	.navbar{
+	background-color: black;
+}
+
+div#collapsable-nav,#collapsable-nav ul{
+	background-color: white;
+}
+
+.navbar-inverse {
+  background-color: red;
+}
+.navbar-inverse .navbar-brand {
+  color: #9d9d9d;
+}
+}
+#nav_list a {
+	color: #000000;
+}
+#nav_list a{
+	color: #000080;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+
+p{
+	background-color: #808080;
+	padding: 5px;
+	clear: both;
+	text-align: justify-all;
+	font-size: 1.5em;
+	font-family: sans-serif
+	font-weight : bolder;
+	font-style: italic;
+
+}
+h3{
+	background-color: #808080;
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: bolder;
+	
+}
+
