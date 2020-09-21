@@ -30,12 +30,6 @@ body{
 .navbar-header a:hover, a:focus{
 	text-decoration: none;
 }
-
-#collapsable-nav{
-	padding: 0;
-	background:  #800000;
-
-}
 #nav-list{
 	margin-top: 8px;
 	width: 100%;
